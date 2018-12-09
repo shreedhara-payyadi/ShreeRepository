@@ -27,7 +27,7 @@ public class SystemsProgramming_3 {
 		if (path.getParent() != null)
 			generateJSONofDiskUsage(path, direcPath);
 		else
-			terminateProgramWithTheMessage("Root cannot be sent as argument");
+			terminateProgramWithTheMessage("Path is wrong or root cannot be a path");
 
 	}
 
@@ -56,7 +56,7 @@ public class SystemsProgramming_3 {
 				}
 			}
 		} else {
-			terminateProgramWithTheMessage("No files are present at this path or Path is wrong");
+			terminateProgramWithTheMessage("No files are present at this path ");
 		}
 
 		arrayJson.put(json);
