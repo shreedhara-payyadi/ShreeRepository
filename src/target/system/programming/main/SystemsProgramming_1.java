@@ -32,7 +32,7 @@ public class SystemsProgramming_1 {
 		if (path.getParent() != null)
 			generateJSONofDiskUsage(path, direcPath);
 		else
-			terminateProgramWithTheMessage("Root cannot be sent as argument");
+			terminateProgramWithTheMessage("Path is wrong or Root cannot be a path");
 
 	}
 
@@ -74,7 +74,7 @@ public class SystemsProgramming_1 {
 				}
 			}
 		} else {
-			terminateProgramWithTheMessage("No files are present at this path or  Path is wrong");
+			terminateProgramWithTheMessage("No files are present at this path");
 		}
 
 		// TO meet the requirement Adding arrayJSON as value to the key "files "
